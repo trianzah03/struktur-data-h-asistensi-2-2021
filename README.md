@@ -12,7 +12,7 @@ Pertama, kita membuat struct tree nya, lalu didalam struct tree dibuat function 
 ## Pre-order
 Pre-order: root,left,right
 Root pertama 5, ke left 4, punya left->left 3. Setelah itu left->right 2, ke right 6. Jadi akan muncul data: 5,4,3,2,6
-##Post-order
+## Post-order
 Post-order: left,right,root
 Pertama left 4, left->right 2, rootnya 4 tapi jadi left,right 6 dan rootnya 5. Jadi akan muncul data: 3,2,4,6,5
 ## In-order
